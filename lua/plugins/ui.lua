@@ -5,6 +5,15 @@ return {
   { "nvim-neo-tree/neo-tree.nvim", enabled = false },
 
   {
+    "folke/noice.nvim",
+    opts = {
+      cmdline = { enabled = false },
+      messages = { enabled = false },
+      popupmenu = { enabled = false },
+    },
+  },
+
+  {
     "folke/snacks.nvim",
     opts = {
       dashboard = { enabled = false },
